@@ -1,3 +1,6 @@
+# Build artefacts
+bin/*
+
 # astyle formatter preserved files
 *.orig
 
@@ -16,6 +19,7 @@
 *.o
 *.ko
 *.obj
+*.elf
 
 # Precompiled Headers
 *.gch
