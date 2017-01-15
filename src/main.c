@@ -1,6 +1,6 @@
 ﻿/*   This file is part of Estionian ITC Course I237, where we use RFID on Arduino Mega 2560
  *
- *   Copyright (C) 2017 Taavi Tilk
+ *   Copyright (C) 2017 Marek Öövel
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -199,11 +199,11 @@ void main (void)
 {
     init_uart();
     init_lcd();
-    init_rl();
-    init_rfid_reader();
     init_counter();
+    init_rfid_reader();
     sei();
     init_hello();
+    init_rl();
     user();
     lcd_print();
 
